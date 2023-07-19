@@ -1,0 +1,59 @@
+.home-container-2{
+    margin-top: 50px;
+}
+
+.plan-container{
+  margin: 25px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.user-plan-container{
+    display: flex;
+    justify-content: space-between;
+    
+  }
+  
+.plan-box{
+    border: double 4px rgb(0, 0, 0);
+    width: 100%;
+    padding: 10px 10px;
+    line-height: 7px;
+    align-items: center;
+  }
+
+.plan-box button{
+  background-color: rgb(127, 125, 124);
+  color: white; 
+  margin-left: 40%;
+  padding: 2px;
+  width: 30%;
+  height: 35px;
+  }
+
+.plan-header{
+    text-align: center;
+    padding: 15px 0px;
+    font-weight: 800;
+    font-size: 20px;
+    color: #061170;
+    
+  }
+  
+  .plan-fields{
+    display: flex;
+    justify-content:space-between;
+  }
+  
+  .plan-fields h4{
+    color: #061170;
+    font-weight: 600;
+    width: 60%;
+  }
+  
+  .plan-fields p{
+    width: 40%;
+    text-align: left;
+    color: #0e558b;
+  }
+  

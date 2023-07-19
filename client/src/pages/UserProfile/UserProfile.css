@@ -1,0 +1,139 @@
+.user-details-container {
+    width: 100%;
+    margin-top: 50px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+  }
+  
+  .user-details {
+    display: flex;
+    align-items: flex-start;
+  }
+  
+  .user-name {
+    padding-left: 20px;
+  }
+  .user-name p {
+    color: #7e7e7e;
+  }
+  .edit-profile-btn {
+    padding: 8px 10px;
+    border: solid 1px #7e7e7e;
+    border-radius: 2px;
+    background-color: white;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  .edit-profile-btn:hover {
+    background-color: #f5f9fc;
+  }
+  .edit-profile-title {
+    padding: 20px 0px;
+    border-bottom: solid 1px #dbd9d9;
+  }
+  .edit-profile-title-2 {
+    color: grey;
+    font-weight: 400;
+  }
+  .edit-profile-form {
+    padding: 20px;
+    border: solid 1px #dbd9d9;
+    border-radius: 5px;
+  }
+  .edit-profile-form label h3 {
+    margin: 0%;
+    padding: 3px 0px;
+  }
+  .edit-profile-form label p {
+    margin: 0%;
+    padding: 3px 0px;
+  }
+  .edit-profile-form label input,
+  .edit-profile-form label textarea {
+    padding: 5px;
+    margin-bottom: 20px;
+    border: solid 1px #dbd9d9;
+    width: 50%;
+  }
+  
+  .user-submit-btn {
+    padding: 14px 10px;
+    background-color: #0a95ff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    transition: 0.2s;
+    cursor: pointer;
+  }
+  
+  .user-submit-btn:hover {
+    background-color: #0074cc;
+  }
+  
+  .user-cancel-btn {
+    padding: 14px 10px;
+    color: #0a95ff;
+    background-color: transparent;
+    border: none;
+    margin-left: 10px;
+    cursor: pointer;
+  }
+
+  .user-tags p{
+    padding: 5px;
+    border: solid 1px #0074cc;
+    border-radius: 2px;
+    background-color:rgb(114, 161, 181);
+    color: white;
+  }
+  
+.user-tags{
+  width: 100px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.user-plan-container{
+  display: flex;
+  justify-content: space-between;
+  
+}
+
+.plan-box{
+  border: double 4px rgb(0, 0, 0);
+  width:100%;
+  padding: 2px 10px;
+  line-height: 7px;
+}
+
+.plan-header{
+  text-align: center;
+  padding: 15px 0px;
+  font-weight: 800;
+  font-size: 20px;
+  color: #061170;
+  
+}
+
+.plan-fields{
+  display: flex;
+  justify-content:space-between;
+}
+
+.plan-fields h4{
+  color: #061170;
+  font-weight: 600;
+  width: 60%;
+}
+
+.plan-fields p{
+  width: 40%;
+  text-align: left;
+  color: #0e558b;
+}
+
+.sub-link{
+  text-decoration: none;
+  color: #349eee;
+}
